@@ -134,7 +134,7 @@ class StoryGenerator:
 main = Tk()
 main.geometry("250x250")
 main.title("Mad Libs Generator")
-# main.wm_iconbitmap("Logo.ico")
+# main.wm_iconbitmap("Logo.ico") # Displays the custome logo instead of tkinter logo
 
 def inputScreen(topic):
     def redirect():
